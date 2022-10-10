@@ -9,6 +9,14 @@ const Header = () => {
         <img src="images/background2.png" alt="" />
         <h2>“Any fool can write code that a computer can understand. ...</h2>
       </div>
+      <nav className="header">
+        <div>
+          <a href="/order">Topics</a>
+          <a href="/order review">Statistics</a>
+          <a href="/manager inventory">Blog</a>
+          <a href="/login">Disappear</a>
+        </div>
+      </nav>
     </div>
   );
 };
