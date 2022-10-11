@@ -32,9 +32,9 @@ function App() {
         { path: "/chart", element: <Chart></Chart> },
         { 
          path: "/quizDetails",
-        loader: async({params}) => {
-          return fetch(`https://openapi.programming-hero.com/api/quiz/`)
-        }
+        loader: async() => {
+          return fetch(`https://openapi.programming-hero.com/api/quiz`)
+        },
          element: <QuizDetails></QuizDetails> },
 
         {
