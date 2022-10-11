@@ -72,7 +72,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <!-- main purpose of the projects -->
 ### my projects details:
-I am going to describe a little bit in my projects, all about some code related quiz which is html, js, css, and so on. It is all are programming details, how does it works and what is the purpose of that languages.
+- I am going to describe a little bit in my projects, 
+- all about some code related quiz which is html, js, 
+- css, and so on. It is all are programming details, 
+- how does it works and what is the purpose of that languages.
 
 
 <!-- my projects github-link -->
