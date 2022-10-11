@@ -9,34 +9,26 @@ import Chart from "./components/Chart/Chart";
 import Main from "./components/Layout/Main";
 import Topic from "./components/Topic/Topic";
 import Quiz from "./components/Quiz/Quiz";
-import QuizDetails from "./components/QuizDetails/QuizDetails";
+
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
       element: <Main></Main>,
+      loader: async () => {
+        return fetch(`https://openapi.programming-hero.com/api/quiz`);
+      },
       children: [
-        { path: "/", element: <Topics></Topics> },
+        {path: "/", element: <Header></Header>},
         {
           path: "/topics",
-          loader: async () => {
-            return fetch(`https://openapi.programming-hero.com/api/quiz`);
-          },
           element: <Topics></Topics>,
         },
         { path: "/topic", element: <Topic></Topic> },
-        { path: "/header", element: <Header></Header> },
         { path: "/statistics", element: <Statistics></Statistics> },
         { path: "/blog", element: <Blog></Blog> },
         { path: "/chart", element: <Chart></Chart> },
-        {
-          path: "/quizDetails",
-          loader: async () => {
-            return fetch(`https://openapi.programming-hero.com/api/quiz`);
-          },
-          element: <QuizDetails></QuizDetails>,
-        },
 
         {
           path: "/quiz/:Id",

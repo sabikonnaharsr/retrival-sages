@@ -1,3 +1,6 @@
+.google-font{
+    font-family: 'Josefin Sans', cursive, 'Bungee Inline';
+}
 .nav-link-container{
     display: flex;
     justify-content: space-between;

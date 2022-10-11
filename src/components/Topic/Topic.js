@@ -9,8 +9,8 @@ const Topic = ({ topic }) => {
     navigate(`/quiz/${id}`)
   } 
   return (
-    <div className="img-background mt-8">
-      <img className="topic-img" src={logo} alt="" />
+    <div className="img-background rounded-lg shadow-lg mt-8">
+      <img className="topic-img bg-gray-400" src={logo} alt="" />
       <div className="btn-quiz">
         <h1 className="font-bold text-2xl text-cyan-500">{name}</h1>
         <button onClick={handleNavigate} className=" bg-cyan-500 text-white font-bold pt-19 py-3 px-6 rounded-md">

@@ -1,13 +1,13 @@
-import React from "react";
-import { useLoaderData } from "react-router-dom";
+import React, { useContext } from "react";
+import { TopicsContext } from "../../Layout/Main";
 import Topic from "../../Topic/Topic";
 
 const Topics = () => {
-  const topics = useLoaderData().data;
-  // console.log(topics);
+  const topics = useContext(TopicsContext);
+
   return (
-    <div>
-      {topics.map((topic) => (
+    <div className="grid grid-cols-3 mx-auto gap-16 w-11/12">
+      {topics.data.map((topic) => (
         <Topic key={topic.id} topic={topic}></Topic>
       ))}
     </div>
