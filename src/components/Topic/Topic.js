@@ -6,7 +6,7 @@ const Topic = ({ topic }) => {
   const {id, name, logo } = topic;
   const navigate = useNavigate();
   const handleNavigate = () => {
-    navigate(`/quiz/:${id}`)
+    navigate(`/quiz/${id}`)
   } 
   return (
     <div className="img-background mt-8">

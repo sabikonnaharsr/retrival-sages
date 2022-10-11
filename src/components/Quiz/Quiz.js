@@ -8,7 +8,11 @@ const Quiz = () => {
     return (
         
         <div className=''>
-             <EyeIcon  className="h-6 w-6 icon text-blue-500"/>
+             <EyeIcon className="h-6 w-6 icon text-blue-500"/>
+             {
+                
+             }
+             
         </div>
     );
 };
