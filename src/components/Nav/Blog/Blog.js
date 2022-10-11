@@ -11,31 +11,26 @@ const Blog = () => {
         <div className="space-y-4 mt-9">
           <details className="w-full border rounded-lg">
             <summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400">
-              Ex orci laoreet egestas sapien magna egestas scelerisque?
+              What is the purpose of react?
             </summary>
             <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-400">
-              Lectus iaculis orci metus vitae ligula dictum per. Nisl per nullam
-              taciti at adipiscing est.{" "}
+            The React. js framework is an open-source JavaScript framework and library developed by Facebook. It's used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript..{" "}
             </p>
           </details>
           <details className="w-full border rounded-lg">
             <summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400">
-              Lorem at arcu rutrum viverra metus sapien venenatis lobortis odio?
+              How does context Api works?
             </summary>
             <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-400">
-              Tincidunt ut hac condimentum rhoncus phasellus nostra. Magna
-              porttitor egestas tincidunt neque vehicula potenti.{" "}
+            The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux..{" "}
             </p>
           </details>
           <details className="w-full border rounded-lg">
             <summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400">
-              Eleifend feugiat sollicitudin laoreet adipiscing bibendum suscipit
-              erat?
+              What is the work of useRef?
             </summary>
             <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-400">
-              Justo libero tellus integer tincidunt justo semper consequat
-              venenatis aliquet imperdiet. Ultricies urna proin fusce nulla
-              pretium sodales vel magna et massa euismod vulputate sed.{" "}
+            useRef returns a mutable ref object whose .current property is initialized to the passed argument ( initialValue ). The returned object will persist for the full lifetime of the component. Essentially, useRef is like a “box” that can hold a mutable value in its .current property..{" "}
             </p>
           </details>
         </div>

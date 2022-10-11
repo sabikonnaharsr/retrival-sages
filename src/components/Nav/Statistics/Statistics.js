@@ -10,7 +10,7 @@ const Statistics = () => {
   return (
     <div className="mt-20">
         <ResponsiveContainer width="100%" height={300}>
-      <BarChart width={500} height={400} data={allData}>
+      <BarChart width={500} height={800} data={allData}>
         <Bar dataKey="total" fill="#8884d8" />
         <XAxis dataKey="name" />
         <YAxis />
