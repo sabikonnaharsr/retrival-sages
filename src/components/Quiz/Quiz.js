@@ -5,7 +5,7 @@ import Question from "./Questions/Question";
 
 const Quiz = () => {
   const quiz = useLoaderData().data;
-  const { id, name, questions } = quiz;
+  const { name, questions } = quiz;
   // console.log(questions);
   return (
     <div className="eye-icon">
