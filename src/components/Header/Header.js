@@ -6,18 +6,16 @@ import "./Header.css";
 const Header = () => {
   return (
     <div>
+      <nav className="nav-link">
+         <h1 className="text-4xl font-extrabold  text-slate-600">Retrival Sages</h1>
+          <NavLink className={({isActive}) => isActive ? 'active': undefined} to="/topics">Topics</NavLink>
+          <NavLink className={({isActive}) => isActive ? 'active': undefined} to="/statistics">Statistics</NavLink>
+          <NavLink to="/blog">Blog</NavLink>     
+      </nav>
       <div className="header">
         {/* <img src="images/background2.png" alt="" /> */}
         <h2>“Any fool can write code that a computer can understand. ...</h2>
       </div>
-      <nav className="nav-link">
-        <div>
-          <NavLink className={({isActive}) => isActive ? 'active': undefined} to="/topics">Topics</NavLink>
-          <NavLink className={({isActive}) => isActive ? 'active': undefined} to="/statistics">Statistics</NavLink>
-          <NavLink to="/blog">Blog</NavLink>
-          
-        </div>
-      </nav>
     </div>
   );
 };

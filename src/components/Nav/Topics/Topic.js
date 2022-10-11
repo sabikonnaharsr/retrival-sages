@@ -1,14 +1,13 @@
-import React from 'react';
-import Header from '../../Header/Header';
-
+import React from "react";
+import Header from "../../Header/Header";
 
 const Topic = () => {
-    return (
-        <div>
-            <h1>hello form topic</h1>
-             <Header></Header>
-        </div>
-    );
+  return (
+    <div>
+      <Header></Header>
+      <h1>hello form topic</h1>
+    </div>
+  );
 };
 
 export default Topic;
