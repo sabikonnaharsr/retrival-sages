@@ -2,7 +2,9 @@
     object-fit: cover;
 }
 .img-background{
+    border-radius: 5px;
     display: grid;
+    grid-template-columns: repeat(1fr 1fr);
     box-shadow: 2px 2px 8px slategray;
     height: 400px;
     width: 300px;
@@ -11,5 +13,7 @@
 .btn-quiz{
     display: flex;
     justify-content: space-between;
-    padding-top: 6px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    margin: 10px;
 }
