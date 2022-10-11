@@ -1,17 +1,21 @@
-.nav-link{
+.nav-link-container{
+    display: flex;
+    justify-content: space-between;
     padding-top: 15px;
-    padding: 10px;
+    padding: 20px;
     box-shadow:  2px 2px 15px slategray;
 }
-.nav-link a{
+.nav-link-container a{
+    text-decoration: none;
     margin-right: 10px;
     color:  rgb(34 211 238);
-    margin: 10px;
-    padding: 20px;
+    margin-right: 10px;
+    padding: 2px 5px;
     font-size: 20px;
     font-weight: 700;
 }
-.nav-link a:hover{
+.nav-link-container a:hover{
+    color: white;
     background-color: slategray;
     border-radius: 5px;
     padding: 7px;
@@ -21,5 +25,7 @@
     justify-content: space-between;
 }
 .active{
+    border-radius: 5px;
+    padding: 20px;
     background-color: slategray;
 }
