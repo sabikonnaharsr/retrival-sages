@@ -1,4 +1,4 @@
-.google-font{
+/* .google-font{
     font-family: 'Josefin Sans', cursive, 'Bungee Inline';
 }
 .nav-link-container{
@@ -12,7 +12,7 @@
     text-decoration: none;
     margin-right: 10px;
     /* color: rgb(100 116 139); */
-    color:  rgb(34 211 238);
+    /* color:  rgb(34 211 238);
     margin-right: 10px;
     padding: 2px 5px;
     font-size: 20px;
@@ -21,8 +21,8 @@
 .nav-link-container a:hover{
     color: white;
     background-color: slategray;
-    border-radius: 5px;
-    padding: 7px;
+    border-radius: 5px; */
+    /* padding: 7px;
 }
 .header-container{
     padding-top: 10px;
@@ -35,11 +35,11 @@
 .header-container img{
 
 }
-.active{
-    border-radius: 5px;
+.active{ */
+    /* border-radius: 5px;
     padding: 20px;
     background-color: slategray;
 }
 .header-img{
     box-shadow: 4px 4px 13px slategray;
-}
+/* } */ 

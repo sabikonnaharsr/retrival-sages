@@ -16,6 +16,7 @@ function App() {
     {
       path: "/",
       element: <Main></Main>,
+      errorElement: <ErrorPage></ErrorPage>,
       loader: async () => {
         return fetch(`https://openapi.programming-hero.com/api/quiz`);
       },
@@ -41,8 +42,6 @@ function App() {
         },
       ],
     },
-
-    { path: "*", element: <ErrorPage></ErrorPage> },
   ]);
   return (
     <div className="App">
