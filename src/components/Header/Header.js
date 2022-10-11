@@ -20,7 +20,9 @@ const Header = () => {
       </nav>
       <div className="header-container">
         <img className=" img-fluid header-img" src={images} alt="" />
-        <h2 className="text-4xl text-slate-600 font-bold pt-7 ">“Any fool can write code that a computer can understand....</h2>
+        <h2 className="text-4xl text-slate-600 font-bold pt-7 ">“Any fool can write 
+        <br />
+        <span className="text-yellow-400 text-5xl">code that a computer can understand....</span></h2>
       </div>
     </div>
   );

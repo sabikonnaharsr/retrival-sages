@@ -30,12 +30,13 @@ function App() {
         { path: "/statistics", element: <Statistics></Statistics> },
         { path: "/blog", element: <Blog></Blog> },
         { path: "/chart", element: <Chart></Chart> },
-        { 
-         path: "/quizDetails",
-        loader: async() => {
-          return fetch(`https://openapi.programming-hero.com/api/quiz`)
+        {
+          path: "/quizDetails",
+          loader: async () => {
+            return fetch(`https://openapi.programming-hero.com/api/quiz`);
+          },
+          element: <QuizDetails></QuizDetails>,
         },
-         element: <QuizDetails></QuizDetails> },
 
         {
           path: "/quiz/:Id",

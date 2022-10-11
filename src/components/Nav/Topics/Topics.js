@@ -7,7 +7,6 @@ const Topics = () => {
   // console.log(topics);
   return (
     <div>
-      <h1> topics{topics.length}</h1>
       {topics.map((topic) => (
         <Topic key={topic.id} topic={topic}></Topic>
       ))}
