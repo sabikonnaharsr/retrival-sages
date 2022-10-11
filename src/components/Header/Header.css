@@ -8,6 +8,7 @@
 .nav-link-container a{
     text-decoration: none;
     margin-right: 10px;
+    /* color: rgb(100 116 139); */
     color:  rgb(34 211 238);
     margin-right: 10px;
     padding: 2px 5px;
@@ -21,11 +22,21 @@
     padding: 7px;
 }
 .header-container{
+    padding-top: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
+}
+.header-container img{
+
 }
 .active{
     border-radius: 5px;
     padding: 20px;
     background-color: slategray;
+}
+.header-img{
+    box-shadow: 4px 4px 13px slategray;
 }

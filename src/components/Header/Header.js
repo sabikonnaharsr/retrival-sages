@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
-// import "../../images/background2.png";
+import images from "../images/background2.png"
 import '../images/background2.png'
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
     <div>
       <nav className="nav-link-container">
              <div>
-             <h1 className="text-4xl font-extrabold  text-cyan-400">Retrival Sages</h1>
+             <h1 className="text-5xl font-extrabold text-cyan-400">Retrival Sages</h1>
              </div>
            <div>
             <NavLink className={({isActive}) => isActive ? 'active': undefined} to="/topics">Topics</NavLink>
@@ -19,8 +19,8 @@ const Header = () => {
            </div>    
       </nav>
       <div className="header-container">
-        <img className="header-img" src="images/background2.png" alt="" />
-        <h2 className="text-2xl text-slate-600 font-bold pt-7 ">“Any fool can write code that a computer can understand....</h2>
+        <img className=" img-fluid header-img" src={images} alt="" />
+        <h2 className="text-4xl text-slate-600 font-bold pt-7 ">“Any fool can write code that a computer can understand....</h2>
       </div>
     </div>
   );

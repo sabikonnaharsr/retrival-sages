@@ -1,0 +1,15 @@
+.topic-img{
+    object-fit: cover;
+}
+.img-background{
+    display: grid;
+    box-shadow: 2px 2px 8px slategray;
+    height: 400px;
+    width: 300px;
+    gap: 20px;
+}
+.btn-quiz{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+}
