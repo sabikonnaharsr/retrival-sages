@@ -10,7 +10,7 @@ const Quiz = () => {
   return (
     <div className="eye-icon">
       <h1 className="text-3xl text-cyan-400 mt-10">Quiz Of {name}</h1>
-      <div>
+      <div className="mt-10">
         {questions.map((questions, index) => (
           <Question key={questions.id} questions={questions} index={index}></Question>
         ))}
