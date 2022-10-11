@@ -1,7 +1,25 @@
-.nav-link a{
-    color:  rgb(71 85 105);
-    margin: 15px;
+.nav-link{
+    padding-top: 15px;
     padding: 10px;
+    box-shadow:  2px 2px 15px slategray;
+}
+.nav-link a{
+    margin-right: 10px;
+    color:  rgb(34 211 238);
+    margin: 10px;
+    padding: 20px;
     font-size: 20px;
     font-weight: 700;
+}
+.nav-link a:hover{
+    background-color: slategray;
+    border-radius: 5px;
+    padding: 7px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.active{
+    background-color: slategray;
 }
