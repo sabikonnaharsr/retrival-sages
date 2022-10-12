@@ -13,7 +13,7 @@ const Question = ({ questions, index }) => {
   }
   return (
     <div className="">
-      <div className="question shadow-lg p-10 mb-10 w-3/4 mx-auto rounded-2xl">
+      <div className="question shadow-lg p-10 mb-10 hover:bg-slate-500 mt-8 w-3/4 mx-auto rounded-2xl">
         <div className="icon p-5 flex justify-between items-center ">
             
           <p><span>Quiz: {index+1}</span> {question}</p>
