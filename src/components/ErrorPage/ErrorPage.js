@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 
 const ErrorPage = () => {
     return (
-        <div className="flex items-center h-full p-16 dark:bg-gray-900 dark:text-gray-100">
+        <div className="flex items-center h-full p-16 dark:bg-gray-900 dark:text-gray-100 mt-28">
           
             {/* <h1 className='text-slate-700 font-bold text-2xl pt-20 '>Sorry Developer ! This Route Is Not Found <span className='text-4xl'>404 !!</span></h1> */}
             
