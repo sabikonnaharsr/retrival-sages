@@ -92,13 +92,16 @@ const Header = () => {
 				</ul>
 			</div>
 			<div className="space-y-3">
-				<h3 className="tracking-wide uppercase dark:text-gray-50">Company</h3>
+				<h3 className="tracking-wide uppercase dark:text-gray-50">Topics</h3>
 				<ul className="space-y-1">
 					<li>
-						<a rel="noopener noreferrer" href="#">Privacy</a>
+						<a rel="noopener noreferrer" href="#">Future Native React</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Terms of Service</a>
+						<a rel="noopener noreferrer" href="#">JavaScript</a>
+					</li>
+					<li>
+						<a rel="noopener noreferrer" href="#">Mongo Db</a>
 					</li>
 				</ul>
 			</div>
@@ -138,7 +141,7 @@ const Header = () => {
 			</div>
 		</div>
 	</div>
-	<div className="py-6 text-sm text-center dark:text-gray-400">© 1968 Company Co. All rights reserved.</div>
+	<div className="py-6 text-sm text-center dark:text-gray-400">© 2022 All rights reserved, sabikonnahar.sr@gmailcom</div>
 </footer>
     </div>
 
