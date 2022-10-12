@@ -20,7 +20,7 @@ const Topic = ({ topic }) => {
         <h3 className="text-xl font-bold">Quiz Total: {total}</h3>
         <button
           onClick={handleNavigate}
-          className=" handle-btn bg-cyan-500 text-white font-bold pt-19 py-3 px-6 rounded-md"
+          className=" handle-btn bg-cyan-500 hover:bg-slate-700 text-slate-50 text-white font-bold pt-19 py-3 px-6 rounded-md"
         >
           Quiz Start
         </button>

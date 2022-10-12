@@ -1,13 +1,8 @@
-.topic-img{
-    /* background-color: slategrey; */
+/* .topic-img{
     object-fit: cover;
 }
 .img-background{
     border-radius: 5px;
-    /* display: grid;
-    grid-template-columns: repeat(1fr 1fr); */
-    /* box-shadow: 2px 2px 8px slategray; */
-    
     height: 400px;
     width: 100%;
     gap: 20px;
@@ -19,8 +14,8 @@
     padding-bottom: 5px;
     margin: 10px;
 }
-/* hover:bg-yellow-300 */
+
 .btn-quiz:hover{
-    background-color: yellow;
+    background-color: rgb(232, 232, 18);
     color: black;
-}
+} */
