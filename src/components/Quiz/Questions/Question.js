@@ -12,8 +12,8 @@ const Question = ({ questions, index }) => {
     toast.success(`ans: ${ans}`)
   }
   return (
-    <div>
-      <div className="question shadow-2xl p-10 mb-4 w-3/4 mx-auto rounded-2xl">
+    <div className="">
+      <div className="question shadow-xxl p-10 mb-4 w-3/4 mx-auto rounded-2xl">
         <div className="icon p-5 flex justify-between items-center ">
             
           <p><span>Quiz: {index+1}</span> {question}</p>

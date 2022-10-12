@@ -27,7 +27,7 @@ const Navbar = () => {
           <rect x="14" y="1" width="7" height="6" />
           <rect x="14" y="11" width="7" height="12" />
         </svg>
-        <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+        <span className="ml-2 text-2xl font-bold tracking-wide text-gray-800 uppercase">
         Retrival Sages
         </span>
       </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
             aria-label="Our product"
             title="Our product"
             className={({ isActive }) =>
-            isActive ?"font-medium tracking-wide text-cyan-700 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            isActive ?"font-bold tracking-wide text-yellow-400 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-bold tracking-wide text-gray-700 transition-colors duration-200 hover:text-cyan-400"
           }
           >
            Topics
@@ -50,7 +50,7 @@ const Navbar = () => {
             aria-label="Our product"
             title="Our product"
             className={({ isActive }) =>
-            isActive ?"font-medium tracking-wide text-cyan-700 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            isActive ?"font-bold tracking-wide text-yellow-400 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-bold tracking-wide text-gray-700 transition-colors duration-200 hover:text-cyan-400"
           }
           >
             Statistics
@@ -62,7 +62,7 @@ const Navbar = () => {
             aria-label="Product pricing"
             title="Product pricing"
             className={({ isActive }) =>
-            isActive ?"font-medium tracking-wide text-cyan-700 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            isActive ?"font-bold tracking-wide text-yellow-400 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-bold tracking-wide text-gray-700 transition-colors duration-200 hover:text-cyan-400"
           }
           >
            Blog
@@ -75,7 +75,7 @@ const Navbar = () => {
         <button
           aria-label="Open Menu"
           title="Open Menu"
-          className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
+          className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-300 focus:bg-deep-purple-50"
           onClick={() => setIsMenuOpen(true)}
         >
           <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -148,7 +148,7 @@ const Navbar = () => {
                       aria-label="Our product"
                       title="Our product"
                       className={({ isActive }) =>
-            isActive ?"font-medium tracking-wide text-cyan-700 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            isActive ?"font-medium tracking-wide text-yellow-400 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-bold tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
           }
                     >
                       Topics
@@ -160,7 +160,7 @@ const Navbar = () => {
                       aria-label="Our product"
                       title="Our product"
                       className={({ isActive }) =>
-            isActive ?"font-medium tracking-wide text-cyan-700 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            isActive ?"font-medium tracking-wide text-yellow-400 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-bold tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
           }
                     >
                       Statistics
@@ -172,7 +172,7 @@ const Navbar = () => {
                       aria-label="Product pricing"
                       title="Product pricing"
                       className={({ isActive }) =>
-            isActive ?"font-medium tracking-wide text-cyan-700 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            isActive ?"font-medium tracking-wide text-yellow-400 transition-colors duration-200 hover:text-deep-purple-accent-400" : "font-bold tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
           }
                     >
                       Blog
