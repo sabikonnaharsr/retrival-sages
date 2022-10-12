@@ -4,8 +4,8 @@ import Header from "../Header/Header";
 
 const ErrorPage = () => {
   return (
-    <div className="flex items-center duration-700 ease-in h-full p-16 dark:bg-gray-900 dark:text-gray-100 mt-28">
-      <div className="container flex flex-col items-center justify-center px-5 mx-auto my-8">
+    <div className="flex items-center ease-in duration-700 h-full p-16 dark:bg-gray-900 dark:text-gray-100 mt-28">
+      <div className=" ease-in duration-700 container flex flex-col items-center justify-center px-5 mx-auto my-8">
         <div className="max-w-md text-center">
           <h2 className="mb-8 font-extrabold text-9xl dark:text-gray-600">
             <span className="sr-only">Error</span>404
