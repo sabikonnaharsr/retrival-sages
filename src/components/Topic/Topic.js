@@ -9,7 +9,7 @@ const Topic = ({ topic }) => {
     navigate(`/quiz/${id}`);
   };
   return (
-    <div className="rounded-md mb-10 mt-10 shadow-md">
+    <div className="rounded-md mt-10 shadow-md">
       <img
         src={logo}
         alt=""
