@@ -9,7 +9,7 @@ const Blog = () => {
         </h2>
         
         <div className="space-y-4 mt-9">
-          <details className="w-full border rounded-lg">
+          <details className="w-80 border rounded-lg">
             <summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400">
               What is the purpose of react?
             </summary>
@@ -17,7 +17,7 @@ const Blog = () => {
             The React. js framework is an open-source JavaScript framework and library developed by Facebook. It's used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript..{" "}
             </p>
           </details>
-          <details className="w-full border rounded-lg">
+          <details className="w-80 border rounded-lg">
             <summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400">
               How does context Api works?
             </summary>
@@ -25,7 +25,7 @@ const Blog = () => {
             The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux..{" "}
             </p>
           </details>
-          <details className="w-full border rounded-lg">
+          <details className="w-80 border rounded-lg">
             <summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400">
               What is the work of useRef?
             </summary>
